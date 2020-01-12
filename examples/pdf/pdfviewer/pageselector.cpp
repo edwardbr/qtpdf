@@ -39,7 +39,7 @@
 #include <QHBoxLayout>
 #include <QLabel>
 #include <QLineEdit>
-#include <QPdfPageNavigation>
+#include <qpdfpagenavigation.h>
 #include <QToolButton>
 
 PageSelector::PageSelector(QWidget *parent)

@@ -41,7 +41,7 @@
 
 #include <QImage>
 #include <QObject>
-#include <QPdfDocumentRenderOptions>
+#include "qpdfdocumentrenderoptions.h"
 
 QT_BEGIN_NAMESPACE
 

@@ -38,7 +38,7 @@
 #define ZOOMSELECTOR_H
 
 #include <QComboBox>
-#include <QPdfView>
+#include <qpdfview.h>
 
 class ZoomSelector : public QComboBox
 {

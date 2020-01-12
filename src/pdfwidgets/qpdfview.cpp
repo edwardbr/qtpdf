@@ -40,8 +40,8 @@
 #include "qpdfpagerenderer.h"
 
 #include <QGuiApplication>
-#include <QPdfDocument>
-#include <QPdfPageNavigation>
+#include <qpdfdocument.h>
+#include <qpdfpagenavigation.h>
 #include <QScreen>
 #include <QScrollBar>
 #include <QScroller>

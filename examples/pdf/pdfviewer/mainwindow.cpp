@@ -35,16 +35,16 @@
 ****************************************************************************/
 
 #include "mainwindow.h"
-#include "ui_mainwindow.h"
+#include "../../../build/examples/pdf/pdfviewer/ui_mainwindow.h"
 
 #include "pageselector.h"
 #include "zoomselector.h"
 
 #include <QFileDialog>
 #include <QMessageBox>
-#include <QPdfBookmarkModel>
-#include <QPdfDocument>
-#include <QPdfPageNavigation>
+#include <qpdfbookmarkmodel.h>
+#include <qpdfdocument.h>
+#include <qpdfpagenavigation.h>
 #include <QtMath>
 
 const qreal zoomMultiplier = qSqrt(2.0);
