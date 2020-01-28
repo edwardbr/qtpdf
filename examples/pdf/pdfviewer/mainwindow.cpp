@@ -35,7 +35,7 @@
 ****************************************************************************/
 
 #include "mainwindow.h"
-#include "../../../build/examples/pdf/pdfviewer/ui_mainwindow.h"
+#include <ui_mainwindow.h>
 
 #include "pageselector.h"
 #include "zoomselector.h"

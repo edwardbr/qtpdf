@@ -430,7 +430,9 @@ add_library(${PROJECT_NAME}
                 pdfium/third_party/freetype/src/sfnt/sfnt.c
                 pdfium/third_party/freetype/src/smooth/smooth.c
                 pdfium/third_party/freetype/src/truetype/truetype.c
-                pdfium/third_party/freetype/src/type1/type1.c)
+                pdfium/third_party/freetype/src/type1/type1.c
+                pdfium/fpdfsdk/javascript/JS_Runtime_Stub.cpp                
+                )
 
 target_include_directories(${PROJECT_NAME} PUBLIC pdfium/public pdfium/third_party/freetype/include pdfium/third_party/freetype/include/freetype pdfium/third_party pdfium)
 
